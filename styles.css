@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background: #66dae7;
+  color: #0c0707;
+  padding: 1rem;
+}
+
+header h1 {
+  text-align: center;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+nav ul li {
+  margin: 0 1rem;
+}
+
+nav ul li a {
+  color: #3f0b2b;
+  text-decoration: none;
+}
+
+#hero {
+  background: url('../images/hero.jpg') no-repeat center center/cover;
+  color: #fff;
+  text-align: center;
+  padding: 2rem;
+}
+
+#menu {
+  
+  padding: 1rem;
+  text-align: center;
+}
+
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}

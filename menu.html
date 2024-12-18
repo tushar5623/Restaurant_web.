@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - Fictional Restaurant</title>
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f8f8f8;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #2c3e50;
+            color: #fff;
+            padding: 1rem 2rem;
+            text-align: center;
+        }
+
+        header h1 {
+            margin-bottom: 0.5rem;
+            font-size: 2.5rem;
+        }   
+        
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            margin-top: 0.5rem;
+        }
+
+        nav ul li {
+            margin: 0 10px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.1rem;
+            padding: 5px 10px;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #f39c12;
+        }
+
+        .menu {
+            max-width: 800px;
+            margin: 2rem auto;
+            background: #fff;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .menu h2 {
+            background: #f39c12;
+            color: #fff;
+            padding: 0.8rem 1.5rem;
+            font-size: 1.8rem;
+        }
+
+        .menu p {
+            padding: 0.8rem 1.5rem;
+            border-bottom: 1px solid #ddd;
+            font-size: 1.2rem;
+        }
+
+        .menu p:last-child {
+            border-bottom: none;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem 2rem;
+            background: #2c3e50;
+            color: #fff;
+            margin-top: 2rem;
+        }
+
+        footer p {
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Our Delicious Menu</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="reservation.html">Reservations</a></li>
+                <li><a href="reviews.html">Reviews</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="menu">
+        <h2>Appetizers</h2>
+        <p>Cheese Garlic Bread - <strong>₹300</strong></p>
+        <p>Bruschetta - <strong>₹400</strong></p>
+
+        <h2>Main Course</h2>
+        <p>Grilled Chicken - <strong>₹700</strong></p>
+        <p>Pasta Alfredo - <strong>₹900</strong></p>
+
+        <h2>Desserts</h2>
+        <p>Chocolate Lava Cake - <strong>₹250</strong></p>
+        <p>Ice Cream Sundae - <strong>₹350</strong></p>
+
+        <h2>Beverages</h2>
+        <p>Fresh Lime Soda - <strong>₹150</strong></p>
+        <p>Cold Coffee - <strong>₹200</strong></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Flavour Restaurant. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
