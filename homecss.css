@@ -140,7 +140,7 @@ nav ul li a:hover {
     text-align: center;
     padding: 40px 20px;
     background-color: #f1f1f1;
-    margin-bottom: 60px; /* Added margin to avoid overlap with the footer */
+    margin-bottom: 60px; 
 }
 
 .intro p {
